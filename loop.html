@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JS loops</h2>
+    <p id="para"></p>
+    <script>
+        var cars=['audi', 'ferrari', 'mercedes', 'mclaren', 'porsche', 'BMW'];
+        var text="";
+        var i;
+        for(i=0;i<cars.length;i++)
+    {
+        text+=cars[i] + "<br>";
+    }
+    document.getElementById("para").innerHTML=text;
+    </script>
+</body>
+</html>
