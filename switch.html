@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>SWITCH IN JAVASCRIPT</h2>
+    <p id="para"></p>
+    <script>
+        var month;
+        switch (new Date().getDay())
+        {
+            case 0:
+                month="january";
+                break;
+                 case 1:
+                month = "feburary";
+                break;
+            case 2:
+                month = "march";
+                break;
+            case 3:
+                month = "april";
+                break;
+            case 4:
+                month = "may";
+                break;
+            case 5:
+                month = "june";
+                break;
+            case 6:
+                month = "july";
+                break;
+            case 7:
+                month = "august";
+                break;
+
+                 case 8:
+                month = "september";
+                break;
+
+                 case 9:
+                month = "october";
+                break;
+
+                 case 10:
+                month = "november";
+                break;
+            case 11:
+                month = "december";
+                break;
+        }
+        document.getElementById("para").innerHTML=month;
+        </script>
+</body>
+</html>
