@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>METHODS</h2>
+        <script>
+        var str="hElLo..";
+        document.write(str.toUpperCase())
+        document.write("<br>");
+         document.write(str.toLowerCase())
+            document.write("<br>");
+             document.write(str.startsWith('h'))
+                document.write("<br>");   
+                var str1="A very cheerfull evening to all...";
+                var part= newRegExp("evening");
+                var result=part.test(str1);
+                document.write(result)
+                document.write("<br>")
+                </script>
+                <h2>JS loops</h2>
+                <p id="para"></p>
+                <script>
+                    var fruits = ['mango', 'banana', 'apple', 'orange', 'grapes', 'kiwi'];
+                    var text = "";
+                    var i;
+                    for (i = 0; i < fruits.length; i++) {
+                        text += fruits[i] + "<br>";
+                    }
+                    document.getElementById("para").innerHTML = text;
+                </script>
+                <h2>SWITCH</h2>
+                <p id="para"></p>
+                <script>
+                    var day;
+                    switch (new Date().getDay())
+                    {
+                        case 0;
+                        day = "monday";
+                        break;
+                        case 1;
+                            day = "tuesday";
+                            break;
+                        case 2;
+                            day = "wednesday";
+                            break;
+                        case 3;
+                            day = "thursday";
+                            break;
+                        case 4;
+                            day = "friday";
+                            break;
+                        case 5;
+                            day = "saturday";
+                            break;
+                        case 6;
+                            day = "sunday";
+                            break;
+                    }
+                            document.getElementById("para").innerHTML= "today is" + day
+                            </script>  
+                    
+
+</body>
+</html>
